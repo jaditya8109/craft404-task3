@@ -25,6 +25,24 @@
     color: white;
 }
 
+.fourth{
+  background-image: url(Layer5.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 95vh;
+  color: white;
+}
+
+.fifth{
+  background-image: url(Layer6.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 5vh;
+  color: white;
+}
+
 .vl {
     border-left: 2px solid white;
     height: 10px;
@@ -44,8 +62,35 @@ nav{
     padding-top: 20vh;
 }
 
+.head3{
+  padding-top: 20vh;
+  color: black;
+}
+
+.head4{
+  padding-top: 15vh;
+}
+
+
 .nav-item{
     color: black;
+}
+
+#about{
+  width: 100%;
+  height: 70px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+#name{
+  width: 45%;
+  height: 40px;
+}
+
+#email{
+  width: 45%;
+  height: 40px;
 }
 
 .button{
@@ -97,5 +142,9 @@ ul {
     .head2{
         padding-top: 10vh;
     }
-    
+    .head3{
+      padding-top: 10vh;
+  }
+  .head4{
+    padding-top: 10vh;
   }
