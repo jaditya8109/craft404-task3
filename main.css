@@ -1,0 +1,101 @@
+.first{
+    background-image: url(Layer2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+
+.second{
+    background-image: url(Layer1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+
+.third{
+    background-image: url(Layer3.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+
+.vl {
+    border-left: 2px solid white;
+    height: 10px;
+    padding-right:5px;
+    
+  }
+
+nav{
+    padding-top: 5vh;;
+}
+
+.head1{
+    padding-top: 20vh;
+}
+
+.head2{
+    padding-top: 20vh;
+}
+
+.nav-item{
+    color: black;
+}
+
+.button{
+    background-color: transparent;
+    border-color: white !important;
+    border: 2.5px solid white;
+    color: white;
+}
+
+.botarrow{
+    padding-top:17vh;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+
+  @media (max-width: 991.98px){
+    .botarrow{
+        padding-top:5vh;
+    }
+    .head1{
+        margin-top: 12vh;
+    }
+    .head2{
+        padding-top: 10vh;
+    }
+    
+  }
